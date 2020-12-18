@@ -1,0 +1,24 @@
+{
+  "name": "project-dti",
+  "version": "1.0.0",
+  "description": "functional test of project",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "selenium-cucumber-js": "1.8.1"
+  },
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions",
+    "test-headless": "node ./index.js -s ./step-definitions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.playcourt.id/.git"
+  },
+  "keywords": [
+    "project-dti",
+    "testing"
+  ],
+  "author": "Novi",
+  "license": "Telkom (c) 2020"
+}
