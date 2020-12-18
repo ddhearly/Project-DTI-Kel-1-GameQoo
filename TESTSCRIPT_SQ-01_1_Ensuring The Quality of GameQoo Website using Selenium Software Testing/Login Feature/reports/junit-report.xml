@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="sign-in-on-the-website;user-success-to-signin-on-the-website" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="E:/Functional-Learn/features/signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signin page" classname="sign-in-on-the-website;user-success-to-signin-on-the-website" time="0.0007608">
+        </testcase>
+        <testcase name="And user fill email field" classname="sign-in-on-the-website;user-success-to-signin-on-the-website" time="0.0002537">
+        </testcase>
+        <testcase name="And user fill password field" classname="sign-in-on-the-website;user-success-to-signin-on-the-website" time="0.0001992">
+        </testcase>
+        <testcase name="When user click login button" classname="sign-in-on-the-website;user-success-to-signin-on-the-website" time="0.0001667">
+        </testcase>
+        <testcase name="Then user can see the page" classname="sign-in-on-the-website;user-success-to-signin-on-the-website" time="39.4008423">
+        </testcase>
+    </testsuite>
+    <testsuite name="sign-in-on-the-website;user-success-to-signinfailed-on-the-website" tests="5" failures="1" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="E:/Functional-Learn/features/signinfailed.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse signinfailed page" classname="sign-in-on-the-website;user-success-to-signinfailed-on-the-website" time="0.0003042">
+        </testcase>
+        <testcase name="And user fill emailfailed field" classname="sign-in-on-the-website;user-success-to-signinfailed-on-the-website" time="0.0002591">
+        </testcase>
+        <testcase name="And user fill passwordfailed field" classname="sign-in-on-the-website;user-success-to-signinfailed-on-the-website" time="0.0009979">
+        </testcase>
+        <testcase name="When user click loginfailed button" classname="sign-in-on-the-website;user-success-to-signinfailed-on-the-website" time="0.0001642">
+        </testcase>
+        <testcase name="Then user can see the pagefailed" classname="sign-in-on-the-website;user-success-to-signinfailed-on-the-website" time="25.7463138">
+            <failure message="TypeError: Cannot read property &apos;performFill&apos; of undefined">TypeError: Cannot read property &apos;performFill&apos; of undefined
+    at E:\Functional-Learn\step-definitions\signinfailed-steps.js:9:42
+    at ManagedPromise.invokeCallback_ (E:\Functional-Learn\node_modules\selenium-webdriver\lib\promise.js:1384:14)
+    at TaskQueue.execute_ (E:\Functional-Learn\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (E:\Functional-Learn\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at E:\Functional-Learn\node_modules\selenium-webdriver\lib\promise.js:2935:27
+    at E:\Functional-Learn\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+        </testcase>
+    </testsuite>
+</testsuites>
