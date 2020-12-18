@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="searching-for-any-games-on-the-website;user-success-to-do-search-game-on-the-website" tests="4" failures="1" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/SIA Semester 5/SQA/project-dti/features/searching.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse game page" classname="searching-for-any-games-on-the-website;user-success-to-do-search-game-on-the-website" time="0.0017478">
+        </testcase>
+        <testcase name="And user fill the game title" classname="searching-for-any-games-on-the-website;user-success-to-do-search-game-on-the-website" time="0.0044592">
+        </testcase>
+        <testcase name="When user click on search button" classname="searching-for-any-games-on-the-website;user-success-to-do-search-game-on-the-website" time="0.0004953">
+        </testcase>
+        <testcase name="Then user can find the game" classname="searching-for-any-games-on-the-website;user-success-to-do-search-game-on-the-website" time="50.0017356">
+            <failure message="function timed out after 50000 milliseconds">function timed out after 50000 milliseconds</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-for-any-games-on-the-website;user-failed-to-do-search-game-on-the-website" tests="4" failures="1" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/SIA Semester 5/SQA/project-dti/features/searchingf.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse failed game page" classname="searching-for-any-games-on-the-website;user-failed-to-do-search-game-on-the-website" time="0.0041743">
+        </testcase>
+        <testcase name="And user fill the game title failed" classname="searching-for-any-games-on-the-website;user-failed-to-do-search-game-on-the-website" time="0.0009932">
+        </testcase>
+        <testcase name="When user click on search button failed" classname="searching-for-any-games-on-the-website;user-failed-to-do-search-game-on-the-website" time="0.0004314">
+        </testcase>
+        <testcase name="Then user cannot find the game" classname="searching-for-any-games-on-the-website;user-failed-to-do-search-game-on-the-website" time="50.069585">
+            <failure message="function timed out after 50000 milliseconds">function timed out after 50000 milliseconds</failure>
+        </testcase>
+    </testsuite>
+</testsuites>
