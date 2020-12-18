@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="regist;user-failed-to-regist-on-gameqoo-website" tests="8" failures="1" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI/fitur-regist/features/regist-fail.feature">
+            </property>
+        </properties>
+        <testcase name="Given browse register page" classname="regist;user-failed-to-regist-on-gameqoo-website" time="0.0031031">
+        </testcase>
+        <testcase name="And fill name field" classname="regist;user-failed-to-regist-on-gameqoo-website" time="0.0006408">
+        </testcase>
+        <testcase name="And fill email field" classname="regist;user-failed-to-regist-on-gameqoo-website" time="0.0008789">
+        </testcase>
+        <testcase name="And fill username field" classname="regist;user-failed-to-regist-on-gameqoo-website" time="0.000723">
+        </testcase>
+        <testcase name="And fill password field" classname="regist;user-failed-to-regist-on-gameqoo-website" time="0.0003776">
+        </testcase>
+        <testcase name="And agree with term and conditions" classname="regist;user-failed-to-regist-on-gameqoo-website" time="0.0005641">
+        </testcase>
+        <testcase name="When click on create account button" classname="regist;user-failed-to-regist-on-gameqoo-website" time="0.0018378">
+        </testcase>
+        <testcase name="Then user regist" classname="regist;user-failed-to-regist-on-gameqoo-website" time="30.0010106">
+            <failure message="function timed out after 30000 milliseconds">function timed out after 30000 milliseconds</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="regist;regist-on-gameqoo-website" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/KULIAH/DTI/fitur-regist/features/regist.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse register page" classname="regist;regist-on-gameqoo-website" time="0.0005697">
+        </testcase>
+        <testcase name="And user fill name field" classname="regist;regist-on-gameqoo-website" time="0.0005079">
+        </testcase>
+        <testcase name="And user fill email field" classname="regist;regist-on-gameqoo-website" time="0.0004806">
+        </testcase>
+        <testcase name="And user fill username field" classname="regist;regist-on-gameqoo-website" time="0.0005047">
+        </testcase>
+        <testcase name="And user fill password field" classname="regist;regist-on-gameqoo-website" time="0.0005601">
+        </testcase>
+        <testcase name="And user agree with term and conditions" classname="regist;regist-on-gameqoo-website" time="0.0004457">
+        </testcase>
+        <testcase name="When user click on create account button" classname="regist;regist-on-gameqoo-website" time="0.0004341">
+        </testcase>
+        <testcase name="Then user can see home page" classname="regist;regist-on-gameqoo-website" time="0.0003927">
+        </testcase>
+    </testsuite>
+</testsuites>
